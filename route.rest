@@ -1,0 +1,27 @@
+### acessando via GET
+GET http://localhost:3000/subscribers
+###
+
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "userName": "Leticia Lima",
+    "userChannel": "udemy"
+}
+
+###
+GET http://localhost:3000/subscribers/628ecb1b7e79e7eb16e8aa49
+###
+
+###
+DELETE http://localhost:3000/subscribers/628ed0bfc36211f0df5b2ebc
+
+###
+PATCH  http://localhost:3000/subscribers/628ecae86113b1966f0a3d90
+Content-Type: application/json
+
+{
+    "userName": "Leticia Higino Neri Lima"
+}
